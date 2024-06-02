@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Load the trained model
 model = tf.keras.models.load_model('my_model.keras')
 
-class_names = ['Early_blight', 'Healthy', 'Late_blight']
+class_names = [ 'Healthy','Early_blight', 'Late_blight']
 
 # Function to make a prediction
 def prediction(img):
